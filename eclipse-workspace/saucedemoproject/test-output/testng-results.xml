@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-25T04:01:48 IST" name="Suite" finished-at="2025-08-25T04:02:17 IST" duration-ms="29589">
+    <groups>
+    </groups>
+    <test started-at="2025-08-25T04:01:48 IST" name="ChromeTest" finished-at="2025-08-25T04:02:15 IST" duration-ms="26984">
+      <class name="tests.TC_005_NavigationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_005_NavigationTest@37ceb1df]" started-at="2025-08-25T04:01:48 IST" name="setup" finished-at="2025-08-25T04:01:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_005_NavigationTest@37ceb1df]" started-at="2025-08-25T04:02:12 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:02:14 IST" duration-ms="1718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_005_NavigationTest@37ceb1df]" started-at="2025-08-25T04:02:12 IST" name="testDetails" finished-at="2025-08-25T04:02:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="productBrowsingAndNavigationTest()[pri:0, instance:tests.TC_005_NavigationTest@37ceb1df]" started-at="2025-08-25T04:02:14 IST" name="productBrowsingAndNavigationTest" finished-at="2025-08-25T04:02:14 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productBrowsingAndNavigationTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_005_NavigationTest@37ceb1df]" started-at="2025-08-25T04:02:15 IST" name="closeBrowser" finished-at="2025-08-25T04:02:15 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_005_NavigationTest -->
+      <class name="tests.TC_004_UiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:01:48 IST" name="setup" finished-at="2025-08-25T04:01:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:08 IST" name="testDetails" finished-at="2025-08-25T04:02:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:08 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:02:09 IST" duration-ms="1762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="buttonVisibilityTest()[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:09 IST" name="buttonVisibilityTest" finished-at="2025-08-25T04:02:10 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonVisibilityTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:10 IST" name="closeBrowser" finished-at="2025-08-25T04:02:10 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:10 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:02:12 IST" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="product()[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:12 IST" name="product" finished-at="2025-08-25T04:02:12 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_004_UiTest@70325e14]" started-at="2025-08-25T04:02:12 IST" name="closeBrowser" finished-at="2025-08-25T04:02:12 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_004_UiTest -->
+      <class name="tests.TC_002_CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_002_CartTest@2df3b89c]" started-at="2025-08-25T04:01:48 IST" name="setup" finished-at="2025-08-25T04:01:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_002_CartTest@2df3b89c]" started-at="2025-08-25T04:01:57 IST" name="testDetails" finished-at="2025-08-25T04:01:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_002_CartTest@2df3b89c]" started-at="2025-08-25T04:01:57 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:01:59 IST" duration-ms="1804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="cartTest()[pri:0, instance:tests.TC_002_CartTest@2df3b89c]" started-at="2025-08-25T04:01:59 IST" name="cartTest" finished-at="2025-08-25T04:02:00 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_002_CartTest@2df3b89c]" started-at="2025-08-25T04:02:00 IST" name="closeBrowser" finished-at="2025-08-25T04:02:00 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_002_CartTest -->
+      <class name="tests.TC_001_LogInTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:48 IST" name="setup" finished-at="2025-08-25T04:01:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:48 IST" name="testDetails" finished-at="2025-08-25T04:01:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:48 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:01:52 IST" duration-ms="3194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="logInTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:52 IST" name="logInTest" data-provider="readData" finished-at="2025-08-25T04:01:52 IST" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidInput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:52 IST" name="closeBrowser" finished-at="2025-08-25T04:01:52 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:52 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:01:54 IST" duration-ms="1740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="logInTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:54 IST" name="logInTest" data-provider="readData" finished-at="2025-08-25T04:01:54 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidInput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:54 IST" name="closeBrowser" finished-at="2025-08-25T04:01:55 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:55 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:01:56 IST" duration-ms="1758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="logInTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:56 IST" name="logInTest" data-provider="readData" finished-at="2025-08-25T04:01:57 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PasswordFieldMask]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_001_LogInTest@41a2befb]" started-at="2025-08-25T04:01:57 IST" name="closeBrowser" finished-at="2025-08-25T04:01:57 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_001_LogInTest -->
+      <class name="tests.TC_003_OrderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:01:48 IST" name="setup" finished-at="2025-08-25T04:01:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:00 IST" name="testDetails" finished-at="2025-08-25T04:02:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:00 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:02:02 IST" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="validOrderTest()[pri:1, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:02 IST" name="validOrderTest" finished-at="2025-08-25T04:02:02 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validOrderTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:02 IST" name="closeBrowser" finished-at="2025-08-25T04:02:03 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:03 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:02:05 IST" duration-ms="1810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="emptyFormTest()[pri:2, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:05 IST" name="emptyFormTest" finished-at="2025-08-25T04:02:07 IST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFormTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_003_OrderTest@23348b5d]" started-at="2025-08-25T04:02:07 IST" name="closeBrowser" finished-at="2025-08-25T04:02:08 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_003_OrderTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-08-25T04:02:15 IST" name="EdgeTest" finished-at="2025-08-25T04:02:17 IST" duration-ms="2588">
+      <class name="tests.TC_006_LogOutTest">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:01:48 IST" name="createReport" finished-at="2025-08-25T04:01:48 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:02:15 IST" name="testDetails" finished-at="2025-08-25T04:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:02:15 IST" name="setup" finished-at="2025-08-25T04:02:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="browserLaunchAndUrlLoad(java.lang.String,java.lang.String)[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:02:15 IST" name="browserLaunchAndUrlLoad" finished-at="2025-08-25T04:02:16 IST" duration-ms="1436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndUrlLoad -->
+        <test-method signature="LogOutTest()[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:02:16 IST" name="LogOutTest" finished-at="2025-08-25T04:02:17 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:02:17 IST" name="closeBrowser" finished-at="2025-08-25T04:02:17 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.TC_006_LogOutTest@291b4bf5]" started-at="2025-08-25T04:02:17 IST" name="closeReport" finished-at="2025-08-25T04:02:18 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- tests.TC_006_LogOutTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

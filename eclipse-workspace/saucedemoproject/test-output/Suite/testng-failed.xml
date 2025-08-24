@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="url" value="https://www.saucedemo.com/"/>
+  <listeners>
+    <listener class-name="utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.TC_005_NavigationTest">
+        <methods>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="productBrowsingAndNavigationTest"/>
+          <include name="testDetails"/>
+          <include name="closeBrowser"/>
+          <include name="createReport"/>
+          <include name="setup"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- tests.TC_005_NavigationTest -->
+      <class name="tests.TC_003_OrderTest">
+        <methods>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="closeBrowser"/>
+          <include name="testDetails"/>
+          <include name="validOrderTest"/>
+          <include name="setup"/>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- tests.TC_003_OrderTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
