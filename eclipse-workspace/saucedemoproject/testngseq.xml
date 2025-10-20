@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name="utils.Listeners"></listener>
+</listeners>
+<parameter name="url" value="https://www.saucedemo.com/"></parameter>
+  <test thread-count="5" name="ChromeTest">
+   <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="tests.TC_001_LogInTest"/>
+       <class name="tests.TC_002_CartTest"/>
+       <class name="tests.TC_003_OrderTest"/>
+        <class name="tests.TC_004_UiTest"/>
+        <class name="tests.TC_005_NavigationTest"/>
+        
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="EdgeTest">
+   <parameter name="browser" value="Edge"></parameter>
+    <classes>
+     <class name="tests.TC_006_LogOutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
